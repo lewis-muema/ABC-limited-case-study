@@ -1,0 +1,247 @@
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px; 
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+}
+
+#myUL {
+    padding: 0;
+    margin: 0;
+}
+
+
+.test{
+    margin-top: 25px;
+    margin-right: 40%;
+    float: right;
+    font-family: cursive;
+    
+}
+
+.production{
+    margin-left: 37%;
+    margin-top: 25px;
+    /* float: right; */
+    font-family: cursive;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.abc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.gitlab{
+    background-color: #00c7ff;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block; 
+    margin: 20px;
+    height: 100px;
+}
+
+.blossom{
+    background-color: #dc0e5c;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    margin: 20px;
+    height: 100px; 
+}
+
+.googledrive{
+    background-color: #ffd100;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block; 
+    margin: 20px;
+    height: 100px;
+}
+
+.statuscake{
+    background-color: #48ff98;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block; 
+    margin: 20px;
+    height: 100px;
+}
+
+.happyapps{
+    background-color: #f78d46;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block; 
+    margin: 20px;
+    height: 100px;
+}
+
+.jfrog{
+    background-color: #ff0e0e;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block; 
+    margin: 20px;
+    height: 100px;
+}
+
+.slack{
+    background-color: #4fc70e;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block; 
+    margin: 20px;
+    height: 100px;
+}
+.cloudflare{
+    background-color: #b209bf;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block; 
+    margin: 20px;
+    height: 100px;
+}
+
+.mode{
+    background-color: #00c7ff;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block; 
+    margin: 20px;
+    height: 100px;
+}
+
+.deploybot{
+    background-color: #dc0e5c;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block; 
+    margin: 20px;
+    height: 100px;
+}
+
+.playstore{
+    background-color: #ffd100;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block; 
+    margin: 20px;
+    height: 100px;
+}
+
+.appstore{
+    background-color: #48ff98;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block; 
+    margin: 20px;
+    height: 100px;
+}
+
+.s3{
+    background-color: #f78d46;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block; 
+    margin: 20px;
+    height: 100px;
+}
+
+.cloudwatch{
+    background-color: #ff0e0e;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block; 
+    margin: 20px;
+    height: 100px;
+}
+
+.xero{
+    background-color: #4fc70e;
+     border: 1px solid #ddd;
+    margin-top: -1px; 
+    padding: 12px; 
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block; 
+    margin: 20px;
+    height: 100px;
+}
+
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: monospace;
+}

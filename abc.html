@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+	<link rel="stylesheet" href="styling/main.css">
+</head>
+<body>
+<img class =  "abc" src="library/abc.png">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+<ul id="myUL">
+  <li class="gitlab"><div class = "heading">Gitlab</div><div class = "test"><a href="https://gitlab.com/#test">test website</a></div><div class="production"><a href="https://gitlab.com/#production">production website</a></div></li>
+  <li class="blossom"><div class = "heading">Blossom</div><div class = "test"><a href="https://www.blossom.co/#test">test website</a></div><div class="production"><a href="https://www.blossom.co//#production">production website</a></div></li>
+  <li class="googledrive"><div class = "heading">Google Drive</div><div class = "test"><a href="https://www.google.com/drive/#test">test website</a></div><div class="production"><a href="https://www.google.com/drive/#production">production website</a></div></li>
+  <li class="statuscake"><div class = "heading">Status cake</div><div class = "test"><a href="https://www.statuscake.com/#test">test website</a></div><div class="production"><a href="https://www.statuscake.com/#production">production website</a></div></li>
+  <li class="happyapps"><div class = "heading">Happy Apps</div><div class = "test"><a href="https://www.happyapps.io/#test">test website</a></div><div class="production"><a href="https://www.happyapps.io/#production">production website</a></div></li>
+  <li class="jfrog"><div class = "heading">Jfrog</div><div class = "test"><a href="https://jfrog.com/#test">test website</a></div><div class="production"><a href="https://jfrog.com/#production">production website</a></div></li>
+  <li class="slack"><div class = "heading">Slack</div><div class = "test"><a href="https://slack.com/#test">test website</a></div><div class="production"><a href="https://slack.com/#production">production website</a></div></li>
+  <li class="cloudflare"><div class = "heading">Cloudflare</div><div class = "test"><a href="https://www.cloudflare.com/#test">test website</a></div><div class="production"><a href="https://www.cloudflare.com/#production">production website</a></div></li>
+  <li class="mode"><div class = "heading">Mode</div><div class = "test"><a href="https://help.modeanalytics.com/articles/share-a-report/#test">test website</a></div><div class="production"><a href="https://help.modeanalytics.com/articles/share-a-report/#production">production website</a></div></li>
+  <li class="deploybot"><div class = "heading">Deploybot</div><div class = "test"><a href="https://deploybot.com/#test">test website</a></div><div class="production"><a href="https://deploybot.com/#production">production website</a></div></li>
+  <li class="playstore"><div class = "heading">Playstore</div><div class = "test"><a href="https://play.google.com/store?hl=en/#test">test website</a></div><div class="production"><a href="https://play.google.com/store?hl=en/#production">production website</a></div></li>
+  <li class="appstore"><div class = "heading">Appstore</div><div class = "test"><a href="https://www.apple.com/lae/ios/app-store/#test">test website</a></div><div class="production"><a href="https://www.apple.com/lae/ios/app-store/#production">production website</a></div></li>
+  <li class="s3"><div class = "heading">S3</div><div class = "test"><a href="https://aws.amazon.com/s3/#test">test website</a></div><div class="production"><a href="https://aws.amazon.com/s3/#production">production website</a></div></li>
+  <li class="cloudwatch"><div class = "heading">Cloudwatch</div><div class = "test"><a href="https://aws.amazon.com/cloudwatch/#test">test website</a></div><div class="production"><a href="https://aws.amazon.com/cloudwatch/#production">production website</a></div></li>
+  <li class="xero"><div class = "heading">Xero</div><div class = "test"><a href="https://www.xero.com/us/#test">test website</a></div><div class="production"><a href="https://www.xero.com/us/#production">production website</a></div></li>
+</ul>
+<script type="text/javascript">
+
+function myFunction() {
+    // Declare variables
+    var input, filter, ul, li, a, i;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("div")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+
+</script>
+
+</body>
+</html>
